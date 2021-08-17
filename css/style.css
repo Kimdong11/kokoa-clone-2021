@@ -6,6 +6,7 @@
 @import "/css/components/navigation-bar.css";
 @import "/css/components/screen-header.css";
 @import "/css/components/user-component.css";
+@import "/css/components/badge.css";
 /* Screens */
 @import "/css/screens/login.css";
 @import "/css/screens/welcome.css";
@@ -21,4 +22,7 @@ body {
 a {
     color: inherit;
     text-decoration: none;
+}
+.main-screen {
+    padding: 0px var(--horizontal-space);
 }
