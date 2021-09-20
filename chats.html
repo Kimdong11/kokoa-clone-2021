@@ -10,14 +10,14 @@
 <body id="chat-screen">
     <div class="status-bar">
         <div class="status-bar__column">
-            <span>No Sevice</span>
+            <span>Jeju Island</span>
             <i class="fas fa-wifi"></i>
         </div>
-        <div class="status-bar__column">
-            <span>18:43</span>
+        <div class="status-bar__column" id="time">
+            <span></span>
         </div>
         <div class="status-bar__column">
-            <span>110%</span>
+            <span>100%</span>
             <i class="fas fa-battery-full fa-lg"></i>
             <i class="fas fa-bolt"></i>
         </div>
@@ -29,7 +29,7 @@
         </a>
         </div>
         <div class="alt-header__column">
-            <h1 class="alt-header__title">동현</h1>
+            <h1 class="alt-header__title">Jeju Boi</h1>
         </div>
         <div class="alt-header__column">
             <span><i class="fas fa-search fa-lg"></i></span>
@@ -38,12 +38,14 @@
     </header>
     <main class="main-screen main-chat">
         <div class="chat__timestamp">
-            Tuesday, June 30, 2020
+            <span id="month"></span>
+            <span id="day"></span>
+            <span id="date"></span>
         </div>
         <div class="message-row">    
             <img src="1.jpg" width="30px" height="30px">
             <div class="message-row__content">
-                <span class="message__author">Dong</span>
+                <span class="message__author">Jeju Boi</span>
                 <div class="message__info">
                     <span class="message__bubble">Hi!</span>
                     <span class="message__time">21:27</span>
@@ -72,9 +74,14 @@
         </div>
     </form>
     <div id="no-mobile">
+        <img src="/jeju-day.jpeg" alt="jeju-day">
+        <span>Jeju Clone</span>
+        <span>by Jeju Boi</span>
         <span>Your screen is too big ㅠㅠ</span>
     </div>
     <script src="https://kit.fontawesome.com/71a6c45f75.js" 
     crossorigin="anonymous"></script>
+   <script src="/js/time.js"></script>
+    <script src="/js/date.js"></script>
 </body>
 </html>

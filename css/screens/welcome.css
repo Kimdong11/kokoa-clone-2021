@@ -1,4 +1,8 @@
+background-img img{
+    position: absolute;
+}
 .welcome-header {
+    position: relative;
     margin: 90px;
     text-align: center;
     display: flex;
@@ -9,6 +13,7 @@
 .welcome-header__title {
     margin-bottom: 20px;
     font-size: 25px;
+    text-shadow: 2px 2px 4px orange;
 }
 .welcome-header__text {
      width: 60%;

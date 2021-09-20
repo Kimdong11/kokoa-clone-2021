@@ -2,11 +2,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow-y: scroll;
 }
 .user-component,
  .user-component__column:first-child {
     display: flex;
     align-items: center;
+}
+.user-component__column {
+    margin-bottom: 30px;
+    
 }
 
 .user-component__avatar {
