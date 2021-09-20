@@ -2,22 +2,22 @@
 @import "reset.css";
 @import "variables.css";
 /* Component */
-@import "css/components/status.css";
-@import "css/components/navigation-bar.css";
-@import "css/components/screen-header.css";
-@import "css/components/user-component.css";
-@import "css/components/badge.css";
-@import "css/components/icon-row.css";
-@import "css/components/alternative-screen-header.css";
-@import "css/components/no-mobile.css";
+@import "components/status.css";
+@import "components/navigation-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alternative-screen-header.css";
+@import "components/no-mobile.css";
 /* Screens */
-@import "css/screens/login.css";
-@import "css/screens/welcome.css";
-@import "css/screens/friends.css";
-@import "css/screens/find.css";
-@import "css/screens/more.css";
-@import "css/screens/settings.css";
-@import "css/screens/chat.css";
+@import "screens/login.css";
+@import "screens/welcome.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 
